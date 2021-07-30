@@ -1,0 +1,203 @@
+title {
+    border: solid black
+    
+}
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    line-height: 25px;
+    color: #333;
+    background-color: #dcdcdc;
+  }
+
+.cuerpo {
+
+    width: 75%;
+    float: right;
+    height: 100vh;
+}
+img {
+    max-width: 100%;
+    width: auto \9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+  }
+
+h1 {
+    font-size: 40 px;
+    font-family: Verdana;
+    background: #3ac6f1;
+    color: white;
+    opacity: 0.95;
+    font-size: 26px;
+  line-height: 29px;
+}
+.page-header h1 small {
+    display: block;
+    line-height: 18px;
+  }
+
+h2 {
+    text-align: center;
+    color: #024188;
+    font-size: 25px;
+  line-height: 29px;   
+}
+.carousel {
+    height: 5pp;
+}
+.escudo {
+    position:relative;
+
+}
+.sidebar {
+    position: fixed;
+    width: 23%;
+    color: white;
+    background: rgba(0, 128, 128, 0.74);
+    font-size: 0.85em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .menú li{
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+    color:white ;
+    cursor: pointer;
+    margin: 0 15%;
+    text-align: center;
+    top: 50%;
+    font-weight: bold;
+    position: relative;
+    transform: translateY(-50%);
+    cursor: pointer;
+    
+}
+/* redes */
+
+.redes{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .red{float: right;}
+  
+  .img32{
+    padding: 10px 5px; 
+    margin: 0 auto; 
+    display: block; 
+    width: 2em;
+  }
+  
+  /* Redes Sociales */
+  
+  .social {
+    position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    right: 0; /* Establecemos la barra en la derecha */
+    top: 55%; /* Bajamos la barra */
+    z-index: 20000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+  }
+  
+  .social ul {
+        list-style: none;
+        background-color: rgba(255, 255, 255, 0.8);
+        -webkit-border-radius: 20px 0 0 20px;
+      -moz-border-radius: 20px 0 0 20px;
+      border-radius: 20px 0 0 20px;
+  }
+  
+  .social ul li a {
+    display: inline-block;
+    text-decoration: none;
+
+  }
+
+  .social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+  .social ul li .icon-twitter {background: #00abf0;}
+  .social ul li .icon-pinterest {background: #ae181f;}
+  .social ul li .icon-mail {background: #666666;}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0 0 9px 25px;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+li {
+  line-height: 18px;
+}
+ul.unstyled,
+ol.unstyled {
+  margin-left: 0;
+  list-style: none;
+}
+ul.inline,
+ol.inline {
+  margin-left: 0;
+  list-style: none;
+}
+ul.inline > li,
+ol.inline > li {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.formulario {
+
+    width: 500px;
+    max-width: 100%;
+    margin:auto;
+    margin-top: 30px;
+    padding:20px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3); 
+    position: right;
+
+}
+.formulario_título {
+text-align: center;
+margin-top: 0;
+color: rgba(0,0,0,0.7)
+
+}
+
+.formulario_input, .formulario.submit, .button {
+display: block;
+width: 100%;
+font-size: 1.3em;
+
+
+}
+
+.formulario_input {
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 40px;
+    background: rgba(45,45,45,0.1);
+}
+
+
+.formulario_label {
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0,0,0,0.5);
+    transition: all 0.2s;
+}
